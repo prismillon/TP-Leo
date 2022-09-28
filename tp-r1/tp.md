@@ -304,7 +304,7 @@ stp
 pour mon rendu
 ok je t'envoie ça sur discord
 nn ici
-nc -lnvp 12345 10.42.0.2
+nc -lnvp 12345 -s 10.42.0.1
 merci
 ```
 
