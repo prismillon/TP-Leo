@@ -40,7 +40,13 @@ $ ip a
   - l'adresse de broadcast
 - vous renseignerez aussi les commandes utilisées pour définir les adresses IP *via* la ligne de commande
 
-🐈‍⬛ **On a choisit les IP 10.42.0.1 et .2 avec .1 en gateway, /26 en masque pour avoir 64-2 adresses disponible.**
+🐈‍⬛ **On a choisit les IP 10.42.0.1 et .2, /26 en masque pour avoir 64 - 2 = 62 adresses disponible.**
+
+l'adresse mac du routeur d'ynov: 00:c0:e7:e0:4:4e
+```
+pierre in ~/Ynov/TP-Leo/tp-r2 on main λ arp -a -i en0 | grep 254
+? (10.33.19.254) at 0:c0:e7:e0:4:4e on en0 ifscope [ethernet]
+```
 
 > Rappel : tout doit être fait *via* la ligne de commandes. Faites-vous du bien, et utilisez Powershell plutôt que l'antique cmd sous Windows svp.
 
