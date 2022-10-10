@@ -1,4 +1,4 @@
-# TP3 : On va router des trucs
+# TP3 : On va router des trucs (fais avec thomas par ce que puce arm etc haha ^^)
 
 Au menu de ce TP, on va revoir un peu ARP et IP histoire de **se mettre en jambes dans un environnement avec des VMs**.
 
