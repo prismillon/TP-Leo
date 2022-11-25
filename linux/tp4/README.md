@@ -423,6 +423,8 @@ ou
 docker compose up -d
 ```
 
+et voila votre hangman_web tourne sur le port 8888 de votre machine!
+
 - et enfin pour eteindre le conteneur:
 
 ```
