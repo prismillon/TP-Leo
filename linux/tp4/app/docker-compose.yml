@@ -1,0 +1,7 @@
+services:
+  hangman_web:
+    image: hangman_web
+    restart: unless-stopped
+    ports:
+      - '8888:80'
+

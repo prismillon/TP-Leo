@@ -389,4 +389,50 @@ Peu importe le langage aussi ! Go, Python, PHP (désolé des gros mots), Node (j
   - la commande `docker build` pour build l'image
   - la commande `docker-compose` pour lancer le(s) conteneur(s)
 
+# How to use
+
+- on clone le repo
+
+```
+git clone https://github.com/prismillon/TP-Leo.git
+```
+
+- on se place dans le bon fichier
+
+```
+cd TP-Leo/linux/tp4/app
+```
+
+- on build l'image docker
+
+```
+docker build . -t hangman_web
+```
+
+- on lance le conteneur avec docker-compose
+
+selon la version la commande peut differer (sur rocky Arm j'avais pas de tiret entre docker et compose)
+
+```
+docker-compose up -d
+```
+
+ou
+
+```
+docker compose up -d
+```
+
+- et enfin pour eteindre le conteneur:
+
+```
+docker-compose down
+```
+
+ou
+
+```
+docker compose down
+```
+
 📁 📁 `app/Dockerfile` et `app/docker-compose.yml`. Je veux un sous-dossier `app/` sur votre dépôt git avec ces deux fichiers dedans :)
